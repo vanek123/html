@@ -1,4 +1,4 @@
-<!doctype html>
+<html>
 <html lang="lv">
 <title>Google</title>
 <style>
