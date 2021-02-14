@@ -1,6 +1,8 @@
 <html>
+<head>
 <html lang="lv">
 <title>Google</title>
+</head>
 <style>
 .smaller-image {
     width: 500px;
@@ -36,10 +38,13 @@
     border: 1px solid grey;
     cursor: pointer;
     border-radius: 5px;
-    } 
+    }
+.text {
+    margin-right: auto;
+    margin-left: auto;
+}
 </style>
-<h3 align="right" class="font">Gmail</h3>
-<h3 align="right" class="font">Attēli</h3>
+
 <body>
 <br>
 <br>
@@ -57,4 +62,5 @@
 <br>
 <input type="submit" value="Google meklēšana" class="button"></p></center>
 </form>
+
 </html>
