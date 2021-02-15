@@ -30,16 +30,19 @@
 .font {
     font-family: arial, sans-serif;
     }
-.button {
-    width: 150 px;
-    padding: 100 px;
-    background: #f1f1f1;
-    color: grey;
-    font-size: 17px;
-    border: 1px solid grey;
+#pogas {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+}
+.poga {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 5px;
     cursor: pointer;
-    border-radius: 5px;
-    outline: 0;
+    background: rgb(231, 231, 231);
+    border-radius: 4px;
+}
     }
 body {
     margin: 0;
@@ -57,6 +60,10 @@ body {
     height: 20px;
     background: red;
     border-radius: 10px;
+}
+#offers {
+    text-align: center;
+    margin-top: 20px;
 }
 </style>
 
@@ -82,16 +89,24 @@ class="toplink">Image</a>
 <center><p><input type="search" name="q" placeholder="Meklēt" class="searchbar"></center>
 <br>
 <br>
-<div id="buttons">
-<div class="button">
+    <div id="pogas">
+<div class="poga">
 Google meklēšana
-</div>
-<div class="button">
+    </div>
+    <div class="poga">
 Es ticu veiksmei!
-</div>
+    </div>
+        </div>
+        </div>
 
-
-</div>
+<div id="offers">
+Google piedāvājums: <a
+href="">русский</a> <a href="">lietuvių</a>
+            </div>
+<div id="leja">
+    <div id="lejas saturs">
+    Saturs
+    </div>
 </body>
 
 </html>
