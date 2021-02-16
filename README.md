@@ -79,7 +79,7 @@ body {
         <a
 class="toplink" href="">Gmail</a>
         <a
-class="toplink" href="">Image</a>
+class="toplink" href="">Attēli</a>
         <a class="image"></a>
     </div>
 
