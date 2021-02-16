@@ -22,7 +22,7 @@
     padding: 10px;
     font-size: 17px;
     border: 1px solid #c4c4c4;
-    background: #f1f1f1;
+    background: white;
     margin-left: auto;
     margin-right: auto;
     outline: 0;
@@ -47,6 +47,8 @@
 body {
     margin: 0;
 }
+body {
+}
 #topright {
     display: flex;
     justify-content: flex-end;
@@ -65,14 +67,19 @@ body {
     text-align: center;
     margin-top: 20px;
 }
+#leja {
+    margin-left: 25px;
+}
+#lejassaturs {
+}
 </style>
 
 <body>
     <div id="topright">
         <a
-class="toplink">Gmail</a>
+class="toplink" href="">Gmail</a>
         <a
-class="toplink">Image</a>
+class="toplink" href="">Image</a>
         <a class="image"></a>
     </div>
 
@@ -86,7 +93,7 @@ class="toplink">Image</a>
 <br>
 <img class="smaller-image img-align" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png" alt="Google logo">
 
-<center><p><input type="search" name="q" placeholder="Meklēt" class="searchbar"></center>
+<center><p><input type="search" name="q" placeholder="" class="searchbar"></center>
 <br>
 <br>
     <div id="pogas">
@@ -103,10 +110,37 @@ Es ticu veiksmei!
 Google piedāvājums: <a
 href="">русский</a> <a href="">lietuvių</a>
             </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <div id="leja">
-    <div id="lejas saturs">
-    Saturs
+    <div id="lejassaturs">
+    Latvija
     </div>
+    <div id="lejassaturs">
+<br>
+<a href="">Plašāka informācija</a>
+<a href="">Reklamēšana</a>
+<a href="">Uzņēmējdarbība</a>
+<a href="">Kā darbojas meklēšana</a>
+        </div>
+        </div> 
 </body>
 
 </html>
