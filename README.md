@@ -93,7 +93,7 @@ class="toplink" href="">Attēli</a>
 <br>
 <img class="smaller-image img-align" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png" alt="Google logo">
 
-<center><p><input type="search" name="q" placeholder="" class="searchbar"></center>
+<center><input type="search" name="q" placeholder="" class="searchbar"></center>
 <br>
 <br>
     <div id="pogas">
