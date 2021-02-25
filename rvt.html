@@ -1,9 +1,30 @@
 <!DOCTYPE html>
 <style>
     .smaller-image {
-        width: 100px;
+        width: 90px;
         display: block;
-        padding: 10px
+        padding: 20px
+    }
+    .searchbar {
+        display: flex;
+        border-radius: 20px;
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid #c4c4c4;
+        background: white;
+        outline: 0;
+        margin-left: 150px;
+        padding-left: 20px;
+        margin-top: -60px;
+        border: 1px solid #c4c4c4;
+        font-size: 17px;
+        width: 700px;
+    }
+    #topright a.image {
+        width: 20px;
+        height: 20px;
+        background: red;
+        border-radius: 10px;
     }
 </style>
 <head>
@@ -13,7 +34,19 @@
 <body>
     <div>
         <img class="smaller-image img-align" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png" alt="Google logo">
-        <input type="search" name="q" placeholder="" class="searchbar"></div>
+        <input type="search" name="q" placeholder="" class="searchbar">
+    </div>
+    <div id="topright">
+        <a class="image"></a>
+    </div>
+    <div>
+        <a href="">Viss</a>
+        <a href="">Attēli</a>
+        <a href="">Maps</a>
+        <a href="">Video</a>
+        <a href="">Ziņas</a>
+        <a href="">Vēl</a>
+        
     </div>
 
 </body>
