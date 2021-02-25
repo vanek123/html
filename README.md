@@ -70,7 +70,8 @@ body {
 #leja {
     margin-left: 25px;
 }
-#lejassaturs {
+#lejassaturs a {
+    padding: 5px
 }
 </style>
 
